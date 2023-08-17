@@ -23,7 +23,7 @@ def duplicar(p, n):
     if(n>0):
         return p+duplicar(p, n-1)
     return ""
-# print(duplicar("cacona", 8))
+# print(duplicar("messi", 8))
 
 def suma(a,b):
     return a+b
